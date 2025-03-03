@@ -25,6 +25,7 @@ public class PQTester {
    public static void test1(Integer[] list,PriorityQueue<Integer> pq)   {
       for (int i = 0; i < list.length; i++) {
 	        pq.insert(list[i]);
+           System.out.println(pq);
 	   }
       System.out.println(pq);
       System.out.println(pq.remove());
@@ -35,6 +36,7 @@ public class PQTester {
    public static void test2(String[] list,PriorityQueue<String> pq)   {
       for (int i = 0; i < list.length; i++) {
 	        pq.insert(list[i]);
+           System.out.println(pq);
 	   }
       System.out.println(pq);
       for (int i = 1; i <= list.length; i*=2) {
